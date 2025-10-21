@@ -1,0 +1,60 @@
+# Arquivos de Build e Compilação em C++ (Geral)
+################################################
+
+# Arquivos de objeto gerados pelo compilador (.o)
+*.o
+
+# Executáveis gerados por padrão (como a.out)
+a.out
+
+# Arquivos executáveis gerados com nomes específicos
+# (Baseado no seu README e convenções de compilação)
+*_solver
+dark_solver
+yoda_solver
+ori_solver
+trevamata_solver
+
+# Arquivos de dependência gerados (se houver)
+*.d
+
+# Arquivos de Build/IDE (Se você usar um IDE)
+################################################
+
+# Pastas de build do Visual Studio/VS Code
+[Dd]ebug/
+[Rr]elease/
+.vs/
+
+# Pastas de build do CLion / JetBrains
+.idea/
+cmake-build-*/
+*.cmake
+
+# Pastas de build do NetBeans
+nbproject/
+
+# Arquivos de Saída e Debugging (Específico de Ambientes Competitivos)
+#####################################################################
+
+# Arquivos de saída de debug ou trace (vistos em seus anexos)
+# Estes são arquivos de metadados complexos do compilador/linker
+Dark
+Ori
+Trevamata
+yoda
+Ori.dSYM/
+Dark.dSYM/
+Trevamata.dSYM/
+Yoda.dSYM/
+
+# Outros
+################################################
+# Arquivos de log
+*.log
+# Arquivos temporários de texto
+*.txt
+# Arquivos de backup
+*~
+# Arquivos PDF (a menos que sejam parte do repo, mas geralmente são ignorados)
+*.pdf
